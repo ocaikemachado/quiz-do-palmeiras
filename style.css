@@ -1,0 +1,54 @@
+body {
+    background: #808080;
+    font-family: Nunito;
+    text-align: center;
+}
+
+#wrapper {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wrapper div, #wrapper ul{
+    width: 50%;
+    max-width: 300px;
+}
+
+ul {
+    padding: 0%;
+}
+
+#titulo {
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+    padding: 10px;
+}
+
+.alternativa {
+    list-style-type: none;
+    margin-bottom: 4px;
+    padding: 10px;
+    background: #006400;
+}
+
+/* Opacidade quando o mouse está em cima*/
+.alternativa:hover { 
+    cursor: pointer;
+    opacity: 0.6;
+} 
+
+#result {
+    font-weight: bold;
+    color:#ff0000  ;
+    opacity: 0.7;
+}
+
+#pontos {
+    color: white;
+    opacity: 0.7;
+}
+
